@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+#container{ border:2px solid black;
+border-radius: 10px;
+    width:40%;
+    margin-top: 150px;
+    margin-left: 250px;
+    float: left;
+}
+#home{ 
+    float: right;
+}
+body{
+    background-image: url(img/multicolor-backgorund-design_1379-8.jpg);
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.Save{
+    background-color:mediumslateblue;
+}
+.home{
+    background-color: orange;
+}
+</style>
+
+<body>
+    <div>
+    <div id="container">
+    <pre>
+    <label for="Event Name" style="font-size: 20px;"><b>Event Name</b></label>      <input type="text"><br>
+    <label for="Description" style="font-size: 20px;"><b>Description</b></label>     <input type="text"><br>
+    <label for="Start Time" style="font-size: 20px;"><b>Start Time</b></label>      <input type="datetime-local"><br>
+    <label for="End Time" style="font-size: 20px;"><b>End time</b></label>        <input type="datetime-local"><br>
+    <label for="Day Of The Week" style="font-size: 20px;"><b>Day Of The Week</b></label>  <select name="multiple" id="myMulti">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+    </select><br>
+              <button type="button" class="Save">Save</button>
+    </pre></div>
+    <div id="home">
+    <a href="home.html"><button type="button" class="home">home</button></a>
+      </div>
+</div>
+
+</body>
+</html>
